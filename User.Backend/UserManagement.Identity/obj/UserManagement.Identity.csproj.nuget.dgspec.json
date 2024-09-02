@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mvide\\Source\\Repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\UserManagement.Identity.csproj": {}
+    "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\UserManagement.Identity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mvide\\Source\\Repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\UserManagement.Identity.csproj": {
+    "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\UserManagement.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mvide\\Source\\Repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\UserManagement.Identity.csproj",
+        "projectUniqueName": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\UserManagement.Identity.csproj",
         "projectName": "UserManagement.Identity",
-        "projectPath": "C:\\Users\\mvide\\Source\\Repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\UserManagement.Identity.csproj",
+        "projectPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\UserManagement.Identity.csproj",
         "packagesPath": "C:\\Users\\mvide\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\mvide\\Source\\Repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\obj\\",
         "projectStyle": "PackageReference",

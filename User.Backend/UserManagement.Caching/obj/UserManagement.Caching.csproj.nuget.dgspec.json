@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mvide\\Source\\Repos\\CSharp.User.Service\\User.Backend\\UserManagement.Caching\\UserManagement.Caching.csproj": {}
+    "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Caching\\UserManagement.Caching.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mvide\\Source\\Repos\\CSharp.User.Service\\User.Backend\\UserManagement.Caching\\UserManagement.Caching.csproj": {
+    "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Caching\\UserManagement.Caching.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mvide\\Source\\Repos\\CSharp.User.Service\\User.Backend\\UserManagement.Caching\\UserManagement.Caching.csproj",
+        "projectUniqueName": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Caching\\UserManagement.Caching.csproj",
         "projectName": "UserManagement.Caching",
-        "projectPath": "C:\\Users\\mvide\\Source\\Repos\\CSharp.User.Service\\User.Backend\\UserManagement.Caching\\UserManagement.Caching.csproj",
+        "projectPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Caching\\UserManagement.Caching.csproj",
         "packagesPath": "C:\\Users\\mvide\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\mvide\\Source\\Repos\\CSharp.User.Service\\User.Backend\\UserManagement.Caching\\obj\\",
         "projectStyle": "PackageReference",

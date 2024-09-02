@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mvide\\Source\\Repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application.Tests\\UserManagement.Application.Tests.csproj": {}
+    "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application.Tests\\UserManagement.Application.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mvide\\Source\\Repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application.Tests\\UserManagement.Application.Tests.csproj": {
+    "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application.Tests\\UserManagement.Application.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mvide\\Source\\Repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application.Tests\\UserManagement.Application.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application.Tests\\UserManagement.Application.Tests.csproj",
         "projectName": "UserManagement.Application.Tests",
-        "projectPath": "C:\\Users\\mvide\\Source\\Repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application.Tests\\UserManagement.Application.Tests.csproj",
+        "projectPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application.Tests\\UserManagement.Application.Tests.csproj",
         "packagesPath": "C:\\Users\\mvide\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\mvide\\Source\\Repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application.Tests\\obj\\",
         "projectStyle": "PackageReference",

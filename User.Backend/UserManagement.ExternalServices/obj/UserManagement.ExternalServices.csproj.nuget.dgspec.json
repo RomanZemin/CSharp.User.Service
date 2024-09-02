@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mvide\\Source\\Repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj": {}
+    "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mvide\\Source\\Repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj": {
+    "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mvide\\Source\\Repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj",
+        "projectUniqueName": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj",
         "projectName": "UserManagement.ExternalServices",
-        "projectPath": "C:\\Users\\mvide\\Source\\Repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj",
+        "projectPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj",
         "packagesPath": "C:\\Users\\mvide\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\mvide\\Source\\Repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\obj\\",
         "projectStyle": "PackageReference",
