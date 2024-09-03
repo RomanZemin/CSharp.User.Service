@@ -1,9 +1,11 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace UserManagement.WebAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize] // Этот атрибут добавляет защиту
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]

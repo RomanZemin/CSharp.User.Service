@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
@@ -34,16 +33,26 @@ namespace UserManagement.WebAPI
                     ValidateIssuerSigningKey = true,
                     ValidIssuer = "WebMonsters",
                     ValidAudience = "http://localhost:5250/api",
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("881d43375578e3020726f4d36a5e779d40d3f972e1f3000090567237bca693bb61e4a339df26d38e98561ce5ed8b82f50d4e299a08ee07638c3a197c6c97f7dc")) // Заменить на ваш секретный ключ
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("881d43375578e3020726f4d36a5e779d40d3f972e1f3000090567237bca693bb61e4a339df26d38e98561ce5ed8b82f50d4e299a08ee07638c3a197c6c97f7dc"))
+                };
+                options.Events = new JwtBearerEvents
+                {
+                    OnAuthenticationFailed = context =>
+                    {
+                        Console.WriteLine("Token invalid: " + context.Exception.Message);
+                        context.Response.StatusCode = 401;
+                        context.Response.ContentType = "application/json";
+                        return context.Response.WriteAsync("Invalid token.");
+                    }
                 };
             });
+
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
-
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
@@ -52,10 +61,15 @@ namespace UserManagement.WebAPI
                 app.UseSwaggerUI();
             }
 
+            app.UseHttpsRedirection();
             app.UseCors("AllowAllOrigins"); //Временное решение
 
-            app.UseHttpsRedirection();
+            // Добавляем вызов UseAuthentication
+            app.UseAuthentication();
+
+            // Используем авторизацию
             app.UseAuthorization();
+
             app.MapControllers();
             app.Run();
         }
