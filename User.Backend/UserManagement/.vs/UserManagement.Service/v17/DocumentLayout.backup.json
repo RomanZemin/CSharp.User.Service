@@ -63,7 +63,7 @@
               "RelativeDocumentMoniker": "..\\UserManagement.Application\\Services\\UserServices.cs",
               "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Services\\UserServices.cs",
               "RelativeToolTip": "..\\UserManagement.Application\\Services\\UserServices.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-02T10:23:47.932Z",
               "EditorCaption": ""
@@ -78,8 +78,7 @@
               "RelativeToolTip": "..\\UserManagement.Application\\Interfaces\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T10:23:11.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T10:23:11.641Z"
             },
             {
               "$type": "Document",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "..\\UserManagement.Application\\DTOs\\UserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T10:22:31.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T10:22:31.349Z"
             },
             {
               "$type": "Document",
@@ -104,8 +102,7 @@
               "RelativeToolTip": "..\\UserManagement.Domain\\Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T10:22:01.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T10:22:01.341Z"
             },
             {
               "$type": "Document",
@@ -117,8 +114,7 @@
               "RelativeToolTip": "..\\UserManagement.Domain\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T10:21:21.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T10:21:21.901Z"
             }
           ]
         }

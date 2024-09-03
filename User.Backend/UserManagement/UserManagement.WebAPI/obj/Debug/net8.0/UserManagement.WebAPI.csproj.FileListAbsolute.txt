@@ -31,3 +31,11 @@ C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\User
 C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\obj\Debug\net8.0\UserManagement.WebAPI.pdb
 C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\obj\Debug\net8.0\UserManagement.WebAPI.genruntimeconfig.cache
 C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\obj\Debug\net8.0\ref\UserManagement.WebAPI.dll
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
