@@ -39,3 +39,15 @@ C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\User
 C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\bin\Debug\net8.0\Npgsql.dll
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\bin\Debug\net8.0\UserManagement.Application.dll
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\bin\Debug\net8.0\UserManagement.Domain.dll
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\bin\Debug\net8.0\UserManagement.Persistence.dll
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\bin\Debug\net8.0\UserManagement.Application.pdb
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\bin\Debug\net8.0\UserManagement.Persistence.pdb
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebAPI\bin\Debug\net8.0\UserManagement.Domain.pdb

@@ -1,6 +1,12 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using UserManagement.Application.Interfaces;
+using UserManagement.Application.Mappings;
+using UserManagement.Application.Services;
+using UserManagement.Domain.Interfaces;
+using UserManagement.Persistence.Repositories;
+using UserManagement.Persistence.Extensions;
 
 namespace UserManagement.WebAPI
 {
@@ -11,6 +17,12 @@ namespace UserManagement.WebAPI
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+
+            builder.Services.AddAppDbContext(builder.Configuration);
+
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddAutoMapper(typeof(UserMappingProfile));
 
             builder.Services.AddCors(options =>
             {

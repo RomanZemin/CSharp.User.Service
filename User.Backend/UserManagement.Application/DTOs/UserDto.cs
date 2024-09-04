@@ -8,14 +8,8 @@ namespace UserManagement.Application.DTOs
 {
     public class UserDto
     {
-        public Guid Id { get; set; }
         public string Username { get; set; }
-        public string Email { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public DateTime DateOfBirth { get; set; }
-        public string Bio { get; set; }
-
-        // Другие свойства
+        public string PublicName { get; set; }
+        public string City { get; set; }
     }
 }
