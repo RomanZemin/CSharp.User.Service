@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "UserManagement.WebAPI.Controllers.UsersController",
-    "Method": "GetAllUsers",
+    "Method": "GetAllUsersExcept",
     "RelativePath": "Users",
     "HttpMethod": "GET",
     "IsController": true,

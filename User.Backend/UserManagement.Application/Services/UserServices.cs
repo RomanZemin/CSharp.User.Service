@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using UserManagement.Application.DTOs;
 using UserManagement.Application.Interfaces;
+using UserManagement.Domain.Entities;
 using UserManagement.Domain.Interfaces;
 
 namespace UserManagement.Application.Services
@@ -20,6 +21,13 @@ namespace UserManagement.Application.Services
         {
             var users = await _userRepository.GetAllUsersAsync();
             return _mapper.Map<IEnumerable<UserDto>>(users);
+        }
+        public async Task<IEnumerable<UserDto>> GetAllUsersExceptAsync(Guid userId)
+        {
+            var users = await _userRepository.GetAllUsersAsync();
+            // Фильтруем список, исключая пользователя с текущим UserId
+            var filteredUsers = users.Where(u => u.UserId != userId);
+            return _mapper.Map<IEnumerable<UserDto>>(filteredUsers);
         }
     }
 }
