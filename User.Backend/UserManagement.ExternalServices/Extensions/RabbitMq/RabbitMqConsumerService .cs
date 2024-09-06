@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using UserManagement.Application.Interfaces;
 using UserManagement.Domain.Entities;
 
-namespace UserManagement.ExternalServices.RabbitMq
+namespace UserManagement.ExternalServices.Extensions.RabbitMq
 {
     public class RabbitMqConsumerService : IDisposable
     {

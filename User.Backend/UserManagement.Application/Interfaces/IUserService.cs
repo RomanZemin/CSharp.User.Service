@@ -1,4 +1,5 @@
 ﻿using UserManagement.Application.DTOs;
+using UserManagement.Domain.Entities;
 
 namespace UserManagement.Application.Interfaces
 {

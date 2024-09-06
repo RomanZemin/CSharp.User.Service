@@ -541,6 +541,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.8",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",
+          "UserManagement.Application": "1.0.0",
           "UserManagement.Domain": "1.0.0"
         },
         "compile": {

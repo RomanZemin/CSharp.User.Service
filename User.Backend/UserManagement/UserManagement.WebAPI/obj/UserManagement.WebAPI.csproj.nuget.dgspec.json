@@ -173,6 +173,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\UserManagement.Application.csproj": {
+                "projectPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\UserManagement.Application.csproj"
+              },
               "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\UserManagement.Domain.csproj": {
                 "projectPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\UserManagement.Domain.csproj"
               }

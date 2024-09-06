@@ -4,14 +4,89 @@
     "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\UserManagement.Identity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\UserManagement.Identity.csproj": {
+    "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\UserManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\UserManagement.Identity.csproj",
-        "projectName": "UserManagement.Identity",
-        "projectPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\UserManagement.Identity.csproj",
+        "projectUniqueName": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\UserManagement.Application.csproj",
+        "projectName": "UserManagement.Application",
+        "projectPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\UserManagement.Application.csproj",
         "packagesPath": "C:\\Users\\mvide\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\obj\\",
+        "outputPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mvide\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\UserManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\UserManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\UserManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\UserManagement.Domain.csproj",
+        "projectName": "UserManagement.Domain",
+        "projectPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\UserManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\mvide\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +124,159 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj",
+        "projectName": "UserManagement.ExternalServices",
+        "projectPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj",
+        "packagesPath": "C:\\Users\\mvide\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mvide\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\UserManagement.Application.csproj": {
+                "projectPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\UserManagement.Application.csproj"
+              },
+              "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\UserManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\UserManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\UserManagement.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\UserManagement.Identity.csproj",
+        "projectName": "UserManagement.Identity",
+        "projectPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\UserManagement.Identity.csproj",
+        "packagesPath": "C:\\Users\\mvide\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mvide\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj": {
+                "projectPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
