@@ -11,12 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("UserManagement.ExternalServices")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("df052e3b-801a-44f3-8f5f-d1027c739305")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("UserManagement.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8bbb45c213e0f76f2464b3f066f632c90d10f45")]
-[assembly: System.Reflection.AssemblyProductAttribute("UserManagement.ExternalServices")]
-[assembly: System.Reflection.AssemblyTitleAttribute("UserManagement.ExternalServices")]
+[assembly: System.Reflection.AssemblyProductAttribute("UserManagement.WebAPI")]
+[assembly: System.Reflection.AssemblyTitleAttribute("UserManagement.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
