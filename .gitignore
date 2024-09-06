@@ -28,3 +28,4 @@
 /User.Backend/UserManagement.WebAPI/obj/UserManagement.WebAPI.csproj.nuget.dgspec.json
 /User.Backend/UserManagement.WebAPI/.vs/UserManagement.WebAPI/v17/DocumentLayout.json
 *.vsidx
+/User.Backend/UserManagement/UserManagement.WebAPI/appsettings.json
