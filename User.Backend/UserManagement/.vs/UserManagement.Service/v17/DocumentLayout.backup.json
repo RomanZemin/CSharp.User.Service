@@ -89,8 +89,7 @@
               "RelativeToolTip": "..\\UserManagement.Persistence\\Data\\UserDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T12:52:39.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T12:52:39.023Z"
             },
             {
               "$type": "Document",
@@ -102,8 +101,7 @@
               "RelativeToolTip": "..\\UserManagement.Domain\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T07:20:05.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T07:20:05.066Z"
             },
             {
               "$type": "Document",
@@ -115,8 +113,7 @@
               "RelativeToolTip": "..\\UserManagement.Persistence\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T07:25:46.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T07:25:46.973Z"
             },
             {
               "$type": "Document",
@@ -128,8 +125,7 @@
               "RelativeToolTip": "..\\UserManagement.Application\\Services\\UserServices.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAkwB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T07:21:53.092Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T07:21:53.092Z"
             },
             {
               "$type": "Document",
@@ -141,8 +137,7 @@
               "RelativeToolTip": "..\\UserManagement.Domain\\Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T07:20:22.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T07:20:22.873Z"
             },
             {
               "$type": "Document",
@@ -167,8 +162,7 @@
               "RelativeToolTip": "..\\UserManagement.Application\\Interfaces\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T11:39:49.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T11:39:49.769Z"
             },
             {
               "$type": "Document",
@@ -180,8 +174,7 @@
               "RelativeToolTip": "..\\UserManagement.Application\\Mappings\\UserMappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T07:21:06.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T07:21:06.637Z"
             },
             {
               "$type": "Document",
@@ -193,8 +186,7 @@
               "RelativeToolTip": "..\\UserManagement.Application\\DTOs\\UserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T07:20:39.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T07:20:39.932Z"
             },
             {
               "$type": "Document",
@@ -206,8 +198,7 @@
               "RelativeToolTip": "..\\UserManagement.Persistence\\Extensions\\ServiceCollectionExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T07:35:34.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T07:35:34.778Z"
             },
             {
               "$type": "Document",
@@ -219,8 +210,7 @@
               "RelativeToolTip": "UserManagement.WebAPI\\Program.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAkwFkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T06:45:58.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-03T06:45:58.717Z"
             },
             {
               "$type": "Document",
