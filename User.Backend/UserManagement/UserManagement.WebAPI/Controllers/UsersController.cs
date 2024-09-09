@@ -7,7 +7,7 @@ namespace UserManagement.WebAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    [Authorize] // Этот атрибут добавляет защиту
+    [Authorize] 
     public class UsersController : ControllerBase
     {
         private readonly IUserService _userService;
