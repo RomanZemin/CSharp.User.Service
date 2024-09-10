@@ -24,14 +24,6 @@ namespace UserManagement.WebAPI
             builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddAutoMapper(typeof(UserMappingProfile));
 
-            builder.Services.AddCors(options =>
-            {
-                options.AddPolicy("AllowAllOrigins",
-                    builder => builder.AllowAnyOrigin()
-                                      .AllowAnyMethod()
-                                      .AllowAnyHeader());
-            });
-
             builder.Services.AddControllers();
 
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
