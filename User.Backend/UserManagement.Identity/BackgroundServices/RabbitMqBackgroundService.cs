@@ -1,20 +1,29 @@
-﻿using Microsoft.Extensions.Hosting;
-using UserManagement.ExternalServices.Extensions.RabbitMq;
+﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using System.Threading;
+using System.Threading.Tasks;
+using UserManagement.ExternalServices.ExternalServices.RabbitMq;
 
 namespace UserManagement.Identity.BackgroundServices
 {
     public class RabbitMqBackgroundService : BackgroundService
     {
-        private readonly RabbitMqConsumerService _consumerService;
+        private readonly IServiceProvider _serviceProvider;
 
-        public RabbitMqBackgroundService(RabbitMqConsumerService consumerService)
+        public RabbitMqBackgroundService(IServiceProvider serviceProvider)
         {
-            _consumerService = consumerService;
+            _serviceProvider = serviceProvider;
         }
 
-        protected override Task ExecuteAsync(CancellationToken stoppingToken)
+        protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            return Task.CompletedTask; // Можно оставить пустым, если `RabbitMqConsumerService` уже обрабатывает сообщения
+            using (var scope = _serviceProvider.CreateScope())
+            {
+                var consumerService = scope.ServiceProvider.GetRequiredService<RabbitMqConsumerService>();
+
+                // Вызовите метод, который запускает обработку сообщений
+                await consumerService.StartConsumingAsync(stoppingToken);
+            }
         }
     }
 }

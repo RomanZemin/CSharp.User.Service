@@ -14,3 +14,5 @@ C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement.Pers
 C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement.Persistence\obj\Debug\net8.0\refint\UserManagement.Persistence.dll
 C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement.Persistence\obj\Debug\net8.0\UserManagement.Persistence.pdb
 C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement.Persistence\obj\Debug\net8.0\ref\UserManagement.Persistence.dll
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement.Persistence\bin\Debug\net8.0\UserManagement.Application.dll
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement.Persistence\bin\Debug\net8.0\UserManagement.Application.pdb

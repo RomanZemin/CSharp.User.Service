@@ -7,6 +7,9 @@ using UserManagement.Application.Services;
 using UserManagement.Domain.Interfaces;
 using UserManagement.Persistence.Repositories;
 using UserManagement.Persistence.Extensions;
+using UserManagement.ExternalServices.Extensions;
+using UserManagement.Identity.Extensions;
+using UserManagement.Persistence.Services;
 
 namespace UserManagement.WebAPI
 {
@@ -19,7 +22,12 @@ namespace UserManagement.WebAPI
             // Add services to the container.
 
             builder.Services.AddAppDbContext(builder.Configuration);
+            builder.Services.AddRabbitMqConnection(builder.Configuration);
 
+            builder.Services.AddInfrastructureIdentityServices();
+            builder.Services.AddInfrastructureExternalServices();
+
+            builder.Services.AddScoped<IUserDbService, UserDbService>();
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddAutoMapper(typeof(UserMappingProfile));
