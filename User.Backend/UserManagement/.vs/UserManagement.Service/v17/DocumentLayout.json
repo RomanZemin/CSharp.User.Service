@@ -76,7 +76,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -105,19 +105,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserDbService.cs",
-              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Persistence\\Services\\UserDbService.cs",
-              "RelativeDocumentMoniker": "..\\UserManagement.Persistence\\Services\\UserDbService.cs",
-              "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Persistence\\Services\\UserDbService.cs",
-              "RelativeToolTip": "..\\UserManagement.Persistence\\Services\\UserDbService.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAlwCAAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T17:27:00.206Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -179,9 +166,22 @@
               "RelativeDocumentMoniker": "..\\UserManagement.ExternalServices\\ExternalServices\\RabbitMq\\RabbitMqConsumerService .cs",
               "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\ExternalServices\\RabbitMq\\RabbitMqConsumerService .cs",
               "RelativeToolTip": "..\\UserManagement.ExternalServices\\ExternalServices\\RabbitMq\\RabbitMqConsumerService .cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAD4vz4AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAWwD4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T14:58:15.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserDbService.cs",
+              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Persistence\\Services\\UserDbService.cs",
+              "RelativeDocumentMoniker": "..\\UserManagement.Persistence\\Services\\UserDbService.cs",
+              "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Persistence\\Services\\UserDbService.cs",
+              "RelativeToolTip": "..\\UserManagement.Persistence\\Services\\UserDbService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAlwCAAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T17:27:00.206Z",
               "EditorCaption": ""
             },
             {

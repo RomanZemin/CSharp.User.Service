@@ -3,13 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1079F8B9-2FD3-4A0E-B8A6-09249E644F90}|..\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.externalservices\\externalservices\\rabbitmq\\rabbitmqconsumerservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66467063-95AB-44B1-B5F6-0E80229B2AC8}|..\\UserManagement.Persistence\\UserManagement.Persistence.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.persistence\\services\\userdbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C1B9DCF0-0343-4D9D-AE08-D03426BFF889}|..\\UserManagement.Domain\\UserManagement.Domain.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9527A2AA-897B-40B0-8F66-F2476E2BF851}|..\\UserManagement.Application\\UserManagement.Application.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1079F8B9-2FD3-4A0E-B8A6-09249E644F90}|..\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.externalservices\\externalservices\\rabbitmq\\rabbitmqconsumerservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1079F8B9-2FD3-4A0E-B8A6-09249E644F90}|..\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.externalservices\\extensions\\rabbitmqconnectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -73,7 +76,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,6 +109,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UserDbService.cs",
+              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Persistence\\Services\\UserDbService.cs",
+              "RelativeDocumentMoniker": "..\\UserManagement.Persistence\\Services\\UserDbService.cs",
+              "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Persistence\\Services\\UserDbService.cs",
+              "RelativeToolTip": "..\\UserManagement.Persistence\\Services\\UserDbService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAlwCAAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T17:27:00.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\DTOs\\UserDto.cs",
               "RelativeDocumentMoniker": "..\\UserManagement.Application\\DTOs\\UserDto.cs",
@@ -118,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "RabbitMqConnectionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\Extensions\\RabbitMqConnectionExtensions.cs",
               "RelativeDocumentMoniker": "..\\UserManagement.ExternalServices\\Extensions\\RabbitMqConnectionExtensions.cs",
@@ -131,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "..\\UserManagement.Domain\\Entities\\User.cs",
@@ -144,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UserDbContext.cs",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Persistence\\Data\\UserDbContext.cs",
               "RelativeDocumentMoniker": "..\\UserManagement.Persistence\\Data\\UserDbContext.cs",
@@ -157,20 +173,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "RabbitMqConsumerService .cs",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\ExternalServices\\RabbitMq\\RabbitMqConsumerService .cs",
               "RelativeDocumentMoniker": "..\\UserManagement.ExternalServices\\ExternalServices\\RabbitMq\\RabbitMqConsumerService .cs",
               "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\ExternalServices\\RabbitMq\\RabbitMqConsumerService .cs",
               "RelativeToolTip": "..\\UserManagement.ExternalServices\\ExternalServices\\RabbitMq\\RabbitMqConsumerService .cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAkwD4AAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAD4vz4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-06T14:58:15.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UserMappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Mappings\\UserMappingProfile.cs",
               "RelativeDocumentMoniker": "..\\UserManagement.Application\\Mappings\\UserMappingProfile.cs",
@@ -183,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IUserDbService.cs",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Interfaces\\IUserDbService.cs",
               "RelativeDocumentMoniker": "..\\UserManagement.Application\\Interfaces\\IUserDbService.cs",
@@ -196,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Gender.cs",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\Enums\\Gender.cs",
               "RelativeDocumentMoniker": "..\\UserManagement.Domain\\Enums\\Gender.cs",
@@ -209,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Monitor.CoreCLR.cs",
               "DocumentMoniker": "C:\\Users\\mvide\\AppData\\Local\\SourceServer\\773a74d1cbc20b2132a00a09a7e1673a467e6798679fc0002818100627cfb995\\src\\coreclr\\System.Private.CoreLib\\src\\System\\Threading\\Monitor.CoreCLR.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\773a74d1cbc20b2132a00a09a7e1673a467e6798679fc0002818100627cfb995\\src\\coreclr\\System.Private.CoreLib\\src\\System\\Threading\\Monitor.CoreCLR.cs",
@@ -222,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ServiceCollectionExtension.cs",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\Extensions\\ServiceCollectionExtension.cs",
               "RelativeDocumentMoniker": "..\\UserManagement.ExternalServices\\Extensions\\ServiceCollectionExtension.cs",
@@ -235,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "RabbitMqBackgroundService.cs",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\BackgroundServices\\RabbitMqBackgroundService.cs",
               "RelativeDocumentMoniker": "..\\UserManagement.Identity\\BackgroundServices\\RabbitMqBackgroundService.cs",
@@ -248,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ServiceCollectionExtension.cs",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\Extensions\\ServiceCollectionExtension.cs",
               "RelativeDocumentMoniker": "..\\UserManagement.Identity\\Extensions\\ServiceCollectionExtension.cs",
@@ -261,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Persistence\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "..\\UserManagement.Persistence\\Repositories\\UserRepository.cs",
@@ -274,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ServiceCollectionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Persistence\\Extensions\\ServiceCollectionExtensions.cs",
               "RelativeDocumentMoniker": "..\\UserManagement.Persistence\\Extensions\\ServiceCollectionExtensions.cs",
@@ -287,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "UserManagement.WebAPI\\Program.cs",
@@ -300,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "UserManagement.WebAPI\\appsettings.json",
@@ -313,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "..\\UserManagement.Application\\Interfaces\\IUserService.cs",
@@ -326,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "UserServices.cs",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Services\\UserServices.cs",
               "RelativeDocumentMoniker": "..\\UserManagement.Application\\Services\\UserServices.cs",
@@ -339,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "..\\UserManagement.Domain\\Interfaces\\IUserRepository.cs",
@@ -352,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebAPI\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "UserManagement.WebAPI\\Controllers\\UsersController.cs",
