@@ -3,70 +3,21 @@
   "WorkspaceRootPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1079F8B9-2FD3-4A0E-B8A6-09249E644F90}|..\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.externalservices\\externalservices\\rabbitmq\\rabbitmqconsumerservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66467063-95AB-44B1-B5F6-0E80229B2AC8}|..\\UserManagement.Persistence\\UserManagement.Persistence.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.persistence\\services\\userdbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1B9DCF0-0343-4D9D-AE08-D03426BFF889}|..\\UserManagement.Domain\\UserManagement.Domain.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9527A2AA-897B-40B0-8F66-F2476E2BF851}|..\\UserManagement.Application\\UserManagement.Application.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1079F8B9-2FD3-4A0E-B8A6-09249E644F90}|..\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.externalservices\\extensions\\rabbitmqconnectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9527A2AA-897B-40B0-8F66-F2476E2BF851}|..\\UserManagement.Application\\UserManagement.Application.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.application\\interfaces\\iuserdbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66467063-95AB-44B1-B5F6-0E80229B2AC8}|..\\UserManagement.Persistence\\UserManagement.Persistence.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.persistence\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9527A2AA-897B-40B0-8F66-F2476E2BF851}|..\\UserManagement.Application\\UserManagement.Application.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.application\\mappings\\usermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1B9DCF0-0343-4D9D-AE08-D03426BFF889}|..\\UserManagement.Domain\\UserManagement.Domain.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.domain\\enums\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mvide\\AppData\\Local\\SourceServer\\773a74d1cbc20b2132a00a09a7e1673a467e6798679fc0002818100627cfb995\\src\\coreclr\\System.Private.CoreLib\\src\\System\\Threading\\Monitor.CoreCLR.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1079F8B9-2FD3-4A0E-B8A6-09249E644F90}|..\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.externalservices\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E15C52F3-1D87-4F09-AC73-60C975DBE33B}|..\\UserManagement.Identity\\UserManagement.Identity.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.identity\\backgroundservices\\rabbitmqbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E15C52F3-1D87-4F09-AC73-60C975DBE33B}|..\\UserManagement.Identity\\UserManagement.Identity.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.identity\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66467063-95AB-44B1-B5F6-0E80229B2AC8}|..\\UserManagement.Persistence\\UserManagement.Persistence.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.persistence\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66467063-95AB-44B1-B5F6-0E80229B2AC8}|..\\UserManagement.Persistence\\UserManagement.Persistence.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8310DCE5-D713-4F4C-B3D9-13F4A01A6A74}|UserManagement.WebAPI\\UserManagement.WebAPI.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement\\usermanagement.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8310DCE5-D713-4F4C-B3D9-13F4A01A6A74}|UserManagement.WebAPI\\UserManagement.WebAPI.csproj|solutionrelative:usermanagement.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8310DCE5-D713-4F4C-B3D9-13F4A01A6A74}|UserManagement.WebAPI\\UserManagement.WebAPI.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement\\usermanagement.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8310DCE5-D713-4F4C-B3D9-13F4A01A6A74}|UserManagement.WebAPI\\UserManagement.WebAPI.csproj|solutionrelative:usermanagement.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9527A2AA-897B-40B0-8F66-F2476E2BF851}|..\\UserManagement.Application\\UserManagement.Application.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8310DCE5-D713-4F4C-B3D9-13F4A01A6A74}|UserManagement.WebAPI\\UserManagement.WebAPI.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement\\usermanagement.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8310DCE5-D713-4F4C-B3D9-13F4A01A6A74}|UserManagement.WebAPI\\UserManagement.WebAPI.csproj|solutionrelative:usermanagement.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9527A2AA-897B-40B0-8F66-F2476E2BF851}|..\\UserManagement.Application\\UserManagement.Application.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.application\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9527A2AA-897B-40B0-8F66-F2476E2BF851}|..\\UserManagement.Application\\UserManagement.Application.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1B9DCF0-0343-4D9D-AE08-D03426BFF889}|..\\UserManagement.Domain\\UserManagement.Domain.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8310DCE5-D713-4F4C-B3D9-13F4A01A6A74}|UserManagement.WebAPI\\UserManagement.WebAPI.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement\\usermanagement.webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8310DCE5-D713-4F4C-B3D9-13F4A01A6A74}|UserManagement.WebAPI\\UserManagement.WebAPI.csproj|solutionrelative:usermanagement.webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1B9DCF0-0343-4D9D-AE08-D03426BFF889}|..\\UserManagement.Domain\\UserManagement.Domain.csproj|c:\\users\\mvide\\source\\repos\\csharp.user.service\\user.backend\\usermanagement.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -76,7 +27,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -108,15 +59,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserDbService.cs",
-              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Persistence\\Services\\UserDbService.cs",
-              "RelativeDocumentMoniker": "..\\UserManagement.Persistence\\Services\\UserDbService.cs",
-              "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Persistence\\Services\\UserDbService.cs",
-              "RelativeToolTip": "..\\UserManagement.Persistence\\Services\\UserDbService.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAlwCAAAABDAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "..\\UserManagement.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "..\\UserManagement.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T17:27:00.206Z",
+              "WhenOpened": "2024-09-16T15:40:53.342Z",
               "EditorCaption": ""
             },
             {
@@ -127,256 +78,54 @@
               "RelativeDocumentMoniker": "..\\UserManagement.Application\\DTOs\\UserDto.cs",
               "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\DTOs\\UserDto.cs",
               "RelativeToolTip": "..\\UserManagement.Application\\DTOs\\UserDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T07:20:39.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RabbitMqConnectionExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\Extensions\\RabbitMqConnectionExtensions.cs",
-              "RelativeDocumentMoniker": "..\\UserManagement.ExternalServices\\Extensions\\RabbitMqConnectionExtensions.cs",
-              "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\Extensions\\RabbitMqConnectionExtensions.cs",
-              "RelativeToolTip": "..\\UserManagement.ExternalServices\\Extensions\\RabbitMqConnectionExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T16:00:11.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "..\\UserManagement.Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "..\\UserManagement.Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T15:55:52.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Persistence\\Data\\UserDbContext.cs",
-              "RelativeDocumentMoniker": "..\\UserManagement.Persistence\\Data\\UserDbContext.cs",
-              "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Persistence\\Data\\UserDbContext.cs",
-              "RelativeToolTip": "..\\UserManagement.Persistence\\Data\\UserDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T12:52:39.023Z",
+              "WhenOpened": "2024-09-16T15:40:48.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RabbitMqConsumerService .cs",
-              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\ExternalServices\\RabbitMq\\RabbitMqConsumerService .cs",
-              "RelativeDocumentMoniker": "..\\UserManagement.ExternalServices\\ExternalServices\\RabbitMq\\RabbitMqConsumerService .cs",
-              "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\ExternalServices\\RabbitMq\\RabbitMqConsumerService .cs",
-              "RelativeToolTip": "..\\UserManagement.ExternalServices\\ExternalServices\\RabbitMq\\RabbitMqConsumerService .cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAD4vz4AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T14:58:15.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserMappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Mappings\\UserMappingProfile.cs",
-              "RelativeDocumentMoniker": "..\\UserManagement.Application\\Mappings\\UserMappingProfile.cs",
-              "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Mappings\\UserMappingProfile.cs",
-              "RelativeToolTip": "..\\UserManagement.Application\\Mappings\\UserMappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T07:21:06.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUserDbService.cs",
-              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Interfaces\\IUserDbService.cs",
-              "RelativeDocumentMoniker": "..\\UserManagement.Application\\Interfaces\\IUserDbService.cs",
-              "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Interfaces\\IUserDbService.cs",
-              "RelativeToolTip": "..\\UserManagement.Application\\Interfaces\\IUserDbService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T15:27:23.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Gender.cs",
-              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\Enums\\Gender.cs",
-              "RelativeDocumentMoniker": "..\\UserManagement.Domain\\Enums\\Gender.cs",
-              "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\Enums\\Gender.cs",
-              "RelativeToolTip": "..\\UserManagement.Domain\\Enums\\Gender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T16:35:30.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Monitor.CoreCLR.cs",
-              "DocumentMoniker": "C:\\Users\\mvide\\AppData\\Local\\SourceServer\\773a74d1cbc20b2132a00a09a7e1673a467e6798679fc0002818100627cfb995\\src\\coreclr\\System.Private.CoreLib\\src\\System\\Threading\\Monitor.CoreCLR.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\773a74d1cbc20b2132a00a09a7e1673a467e6798679fc0002818100627cfb995\\src\\coreclr\\System.Private.CoreLib\\src\\System\\Threading\\Monitor.CoreCLR.cs",
-              "ToolTip": "C:\\Users\\mvide\\AppData\\Local\\SourceServer\\773a74d1cbc20b2132a00a09a7e1673a467e6798679fc0002818100627cfb995\\src\\coreclr\\System.Private.CoreLib\\src\\System\\Threading\\Monitor.CoreCLR.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\773a74d1cbc20b2132a00a09a7e1673a467e6798679fc0002818100627cfb995\\src\\coreclr\\System.Private.CoreLib\\src\\System\\Threading\\Monitor.CoreCLR.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAiwJsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T16:54:05.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ServiceCollectionExtension.cs",
-              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\Extensions\\ServiceCollectionExtension.cs",
-              "RelativeDocumentMoniker": "..\\UserManagement.ExternalServices\\Extensions\\ServiceCollectionExtension.cs",
-              "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\Extensions\\ServiceCollectionExtension.cs",
-              "RelativeToolTip": "..\\UserManagement.ExternalServices\\Extensions\\ServiceCollectionExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T15:59:31.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RabbitMqBackgroundService.cs",
-              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\BackgroundServices\\RabbitMqBackgroundService.cs",
-              "RelativeDocumentMoniker": "..\\UserManagement.Identity\\BackgroundServices\\RabbitMqBackgroundService.cs",
-              "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\BackgroundServices\\RabbitMqBackgroundService.cs",
-              "RelativeToolTip": "..\\UserManagement.Identity\\BackgroundServices\\RabbitMqBackgroundService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T15:34:20.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "ServiceCollectionExtension.cs",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\Extensions\\ServiceCollectionExtension.cs",
               "RelativeDocumentMoniker": "..\\UserManagement.Identity\\Extensions\\ServiceCollectionExtension.cs",
               "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\Extensions\\ServiceCollectionExtension.cs",
               "RelativeToolTip": "..\\UserManagement.Identity\\Extensions\\ServiceCollectionExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T16:18:58.78Z",
+              "WhenOpened": "2024-09-16T14:27:09.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Persistence\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "..\\UserManagement.Persistence\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Persistence\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "..\\UserManagement.Persistence\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T07:25:46.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ServiceCollectionExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Persistence\\Extensions\\ServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "..\\UserManagement.Persistence\\Extensions\\ServiceCollectionExtensions.cs",
-              "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Persistence\\Extensions\\ServiceCollectionExtensions.cs",
-              "RelativeToolTip": "..\\UserManagement.Persistence\\Extensions\\ServiceCollectionExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T07:35:34.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "UserManagement.WebAPI\\Program.cs",
               "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebAPI\\Program.cs",
               "RelativeToolTip": "UserManagement.WebAPI\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBsAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwCUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T06:45:58.717Z",
+              "WhenOpened": "2024-09-16T14:11:09.104Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "UserManagement.WebAPI\\appsettings.json",
               "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebAPI\\appsettings.json",
               "RelativeToolTip": "UserManagement.WebAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-10T15:45:43.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "..\\UserManagement.Application\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "..\\UserManagement.Application\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T11:39:49.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserServices.cs",
-              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Services\\UserServices.cs",
-              "RelativeDocumentMoniker": "..\\UserManagement.Application\\Services\\UserServices.cs",
-              "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Services\\UserServices.cs",
-              "RelativeToolTip": "..\\UserManagement.Application\\Services\\UserServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T07:21:53.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "..\\UserManagement.Domain\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "..\\UserManagement.Domain\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T07:20:22.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebAPI\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "UserManagement.WebAPI\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebAPI\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "UserManagement.WebAPI\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T07:15:36.689Z",
+              "WhenOpened": "2024-09-16T14:12:44.856Z",
               "EditorCaption": ""
             }
           ]

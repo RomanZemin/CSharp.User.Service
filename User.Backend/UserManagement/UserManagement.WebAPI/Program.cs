@@ -1,15 +1,11 @@
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
 using UserManagement.Application.Interfaces;
-using UserManagement.Application.Mappings;
-using UserManagement.Application.Services;
 using UserManagement.Domain.Interfaces;
 using UserManagement.Persistence.Repositories;
 using UserManagement.Persistence.Extensions;
 using UserManagement.ExternalServices.Extensions;
-using UserManagement.Identity.Extensions;
 using UserManagement.Persistence.Services;
+using UserManagement.Identity.Extensions;
+using UserManagement.Application.Extensions;
 
 namespace UserManagement.WebAPI
 {
@@ -24,41 +20,22 @@ namespace UserManagement.WebAPI
             builder.Services.AddAppDbContext(builder.Configuration);
             builder.Services.AddRabbitMqConnection(builder.Configuration);
 
-            builder.Services.AddInfrastructureIdentityServices();
             builder.Services.AddInfrastructureExternalServices();
+            builder.Services.AddInfrastructureIdentityServices(builder.Configuration);
 
             builder.Services.AddScoped<IUserDbService, UserDbService>();
             builder.Services.AddScoped<IUserRepository, UserRepository>();
-            builder.Services.AddScoped<IUserService, UserService>();
-            builder.Services.AddAutoMapper(typeof(UserMappingProfile));
+            builder.Services.AddCoreApplicationServices();
 
-            builder.Services.AddControllers();
-
-            builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-            .AddJwtBearer(options =>
+            builder.Services.AddCors(options =>
             {
-                options.TokenValidationParameters = new TokenValidationParameters
-                {
-                    ValidateIssuer = true,
-                    ValidateAudience = true,
-                    ValidateLifetime = true,
-                    ValidateIssuerSigningKey = true,
-                    ValidIssuer = "WebMonsters",
-                    ValidAudience = "http://localhost:5250/api",
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("881d43375578e3020726f4d36a5e779d40d3f972e1f3000090567237bca693bb61e4a339df26d38e98561ce5ed8b82f50d4e299a08ee07638c3a197c6c97f7dc"))
-                };
-                options.Events = new JwtBearerEvents
-                {
-                    OnAuthenticationFailed = context =>
-                    {
-                        Console.WriteLine("Token invalid: " + context.Exception.Message);
-                        context.Response.StatusCode = 401;
-                        context.Response.ContentType = "application/json";
-                        return context.Response.WriteAsync("Invalid token.");
-                    }
-                };
+                options.AddPolicy("AllowAllOrigins",
+                    builder => builder.AllowAnyOrigin()
+                                      .AllowAnyMethod()
+                                      .AllowAnyHeader());
             });
 
+            builder.Services.AddControllers();
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
@@ -69,16 +46,19 @@ namespace UserManagement.WebAPI
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
+                //app.UseDeveloperExceptionPage();
+                // Отключите временно Swagger и BrowserLink для тестирования
                 app.UseSwagger();
                 app.UseSwaggerUI();
+                // app.UseBrowserLink();
             }
 
-            app.UseHttpsRedirection();
+            
             app.UseCors("AllowAllOrigins"); //Временное решение
 
             // Добавляем вызов UseAuthentication
             app.UseAuthentication();
-
+            app.UseHttpsRedirection();
             // Используем авторизацию
             app.UseAuthorization();
 

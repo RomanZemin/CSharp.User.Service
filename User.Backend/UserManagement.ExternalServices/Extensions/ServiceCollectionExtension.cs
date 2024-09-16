@@ -8,6 +8,7 @@ namespace UserManagement.ExternalServices.Extensions
         public static void AddInfrastructureExternalServices(this IServiceCollection services)
         {
             services.AddScoped<RabbitMqConsumerService>();
+            services.AddHostedService<RabbitMqBackgroundService>();
         }
     }
 }

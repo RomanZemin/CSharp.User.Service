@@ -1,10 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System.Threading;
-using System.Threading.Tasks;
-using UserManagement.ExternalServices.ExternalServices.RabbitMq;
 
-namespace UserManagement.Identity.BackgroundServices
+namespace UserManagement.ExternalServices.ExternalServices.RabbitMq
 {
     public class RabbitMqBackgroundService : BackgroundService
     {

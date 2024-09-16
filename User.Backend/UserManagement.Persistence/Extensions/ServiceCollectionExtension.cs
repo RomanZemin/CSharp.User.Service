@@ -5,7 +5,7 @@ using UserManagement.Persistence.Data;
 
 namespace UserManagement.Persistence.Extensions
 {
-    public static class ServiceCollectionExtensions
+    public static class ServiceCollectionExtension
     {
         // Метод для добавления DbContext
         public static void AddAppDbContext(this IServiceCollection services, IConfiguration configuration)
