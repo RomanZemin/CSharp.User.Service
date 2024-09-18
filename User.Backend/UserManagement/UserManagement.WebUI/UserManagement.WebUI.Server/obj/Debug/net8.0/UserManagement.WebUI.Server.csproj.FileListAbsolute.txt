@@ -1,0 +1,9 @@
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebUI\UserManagement.WebUI.Server\obj\Debug\net8.0\UserManagement.WebUI.Server.csproj.AssemblyReference.cache
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebUI\UserManagement.WebUI.Server\obj\Debug\net8.0\spa.proxy.json
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebUI\UserManagement.WebUI.Server\obj\Debug\net8.0\UserManagement.WebUI.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebUI\UserManagement.WebUI.Server\obj\Debug\net8.0\UserManagement.WebUI.Server.AssemblyInfoInputs.cache
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebUI\UserManagement.WebUI.Server\obj\Debug\net8.0\UserManagement.WebUI.Server.AssemblyInfo.cs
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebUI\UserManagement.WebUI.Server\obj\Debug\net8.0\UserManagement.WebUI.Server.csproj.CoreCompileInputs.cache
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebUI\UserManagement.WebUI.Server\obj\Debug\net8.0\UserManagement.WebUI.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebUI\UserManagement.WebUI.Server\obj\Debug\net8.0\UserManagement.WebUI.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mvide\source\repos\CSharp.User.Service\User.Backend\UserManagement\UserManagement.WebUI\UserManagement.WebUI.Server\obj\Debug\net8.0\UserManagement.WebUI.Server.sourcelink.json

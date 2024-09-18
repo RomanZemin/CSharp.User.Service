@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:5173",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebUI\\UserManagement.WebUI.Server\\..\\usermanagement.webui.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

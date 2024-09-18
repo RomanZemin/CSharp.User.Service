@@ -13,5 +13,9 @@ namespace UserManagement.Persistence.Repositories
         {
             _context = context;
         }
+        public async Task<IEnumerable<User>> GetAllUsersAsync()
+        {
+            return await _context.Users.ToListAsync();
+        }
     }
 }

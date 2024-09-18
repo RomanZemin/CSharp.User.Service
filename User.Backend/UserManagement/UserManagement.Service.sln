@@ -33,7 +33,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserManagement.Application.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserManagement.Infrastructure.Tests", "..\UserManagement.Infrastructure.Tests\UserManagement.Infrastructure.Tests.csproj", "{DF0FFF66-5E83-456D-8145-E05AD2372EC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement.WebAPI", "UserManagement.WebAPI\UserManagement.WebAPI.csproj", "{8310DCE5-D713-4F4C-B3D9-13F4A01A6A74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserManagement.WebAPI", "UserManagement.WebAPI\UserManagement.WebAPI.csproj", "{8310DCE5-D713-4F4C-B3D9-13F4A01A6A74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
