@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UjkQzzzDNdY=",
+  "dgSpecHash": "oZPGsNeesMI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Infrastructure.Tests\\UserManagement.Infrastructure.Tests.csproj",
+  "projectFilePath": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Infrastructure.Tests\\UserManagement.Infrastructure.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mvide\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\mvide\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

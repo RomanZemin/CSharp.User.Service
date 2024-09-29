@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain.Tests\\UserManagement.Domain.Tests.csproj": {}
+    "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Domain.Tests\\UserManagement.Domain.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain.Tests\\UserManagement.Domain.Tests.csproj": {
+    "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Domain.Tests\\UserManagement.Domain.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain.Tests\\UserManagement.Domain.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Domain.Tests\\UserManagement.Domain.Tests.csproj",
         "projectName": "UserManagement.Domain.Tests",
-        "projectPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain.Tests\\UserManagement.Domain.Tests.csproj",
+        "projectPath": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Domain.Tests\\UserManagement.Domain.Tests.csproj",
         "packagesPath": "C:\\Users\\mvide\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Domain.Tests\\obj\\",
+        "outputPath": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Domain.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

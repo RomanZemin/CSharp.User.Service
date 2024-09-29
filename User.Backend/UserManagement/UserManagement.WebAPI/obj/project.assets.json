@@ -3095,11 +3095,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebAPI\\UserManagement.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebAPI\\UserManagement.WebAPI.csproj",
       "projectName": "UserManagement.WebAPI",
-      "projectPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebAPI\\UserManagement.WebAPI.csproj",
+      "projectPath": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebAPI\\UserManagement.WebAPI.csproj",
       "packagesPath": "C:\\Users\\mvide\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3121,17 +3121,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\UserManagement.Application.csproj": {
-              "projectPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\UserManagement.Application.csproj"
+            "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\UserManagement.Application.csproj": {
+              "projectPath": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\UserManagement.Application.csproj"
             },
-            "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj": {
-              "projectPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj"
+            "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj": {
+              "projectPath": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj"
             },
-            "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\UserManagement.Identity.csproj": {
-              "projectPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\UserManagement.Identity.csproj"
+            "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\UserManagement.Identity.csproj": {
+              "projectPath": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\UserManagement.Identity.csproj"
             },
-            "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Persistence\\UserManagement.Persistence.csproj": {
-              "projectPath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.Persistence\\UserManagement.Persistence.csproj"
+            "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Persistence\\UserManagement.Persistence.csproj": {
+              "projectPath": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Persistence\\UserManagement.Persistence.csproj"
             }
           }
         }

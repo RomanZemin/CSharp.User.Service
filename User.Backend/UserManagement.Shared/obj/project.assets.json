@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mvide\\Source\\Repos\\CSharp.User.Service\\User.Backend\\UserManagement.Shared\\UserManagement.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Shared\\UserManagement.Shared.csproj",
       "projectName": "UserManagement.Shared",
-      "projectPath": "C:\\Users\\mvide\\Source\\Repos\\CSharp.User.Service\\User.Backend\\UserManagement.Shared\\UserManagement.Shared.csproj",
+      "projectPath": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Shared\\UserManagement.Shared.csproj",
       "packagesPath": "C:\\Users\\mvide\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mvide\\Source\\Repos\\CSharp.User.Service\\User.Backend\\UserManagement.Shared\\obj\\",
+      "outputPath": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

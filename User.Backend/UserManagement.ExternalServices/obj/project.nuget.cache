@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h/zUHpDaDXQ=",
+  "dgSpecHash": "YDqxW2bh2Gg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mvide\\source\\repos\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj",
+  "projectFilePath": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.ExternalServices\\UserManagement.ExternalServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mvide\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\mvide\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
