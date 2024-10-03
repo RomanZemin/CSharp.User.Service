@@ -21,12 +21,14 @@ namespace UserManagement.Persistence.Repositories
         {
             return await _context.Comments
                 .Where(c => c.PostId == postId)
+                .OrderBy(c => c.CreatedAt)
                 .ToListAsync();
         }
 
         public async Task<IEnumerable<Comment>> GetCommentsForPostPaginatedAsync(int pageNumber, int pageSize)
         {
             return await _context.Comments
+                .OrderBy(c => c.CreatedAt)
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)
                 .ToListAsync();
