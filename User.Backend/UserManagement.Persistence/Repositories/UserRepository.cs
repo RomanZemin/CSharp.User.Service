@@ -17,5 +17,10 @@ namespace UserManagement.Persistence.Repositories
         {
             return await _context.Users.ToListAsync();
         }
+
+        public async Task<User> GetUserByIdAsync(Guid userId)
+        {
+            return await _context.Users.FindAsync(userId);
+        }
     }
 }

@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Hosting;
+
 using UserManagement.Application.DTOs.Posts;
 using UserManagement.Application.Interfaces;
 using UserManagement.Domain.Entities;
-using UserManagement.Persistence.Exceptions;
+using UserManagement.Application.Exceptions;
 
 namespace UserManagement.WebAPI.Controllers
 {

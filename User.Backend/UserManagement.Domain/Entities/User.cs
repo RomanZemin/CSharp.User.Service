@@ -13,5 +13,15 @@ namespace UserManagement.Domain.Entities
         public Gender? Sex { get; set; }
         public string? City { get; set; }
         public string? ActivityType { get; set; }
+        public ICollection<Post> Posts { get; set; }
+        public ICollection<Comment> Comments { get; set; }
+        public ICollection<Like> Likes { get; set; }
+
+        public User()
+        {
+            Posts = new List<Post>();
+            Comments = new List<Comment>();
+            Likes = new List<Like>();
+        }
     }
 }

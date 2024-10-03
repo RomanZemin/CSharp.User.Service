@@ -1,4 +1,4 @@
-﻿namespace UserManagement.Persistence.Exceptions
+﻿namespace UserManagement.Application.Exceptions
 {
     public class CommentNotFoundException : Exception
     {
