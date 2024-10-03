@@ -8,7 +8,7 @@ namespace UserManagement.Application.Interfaces
         Task<IEnumerable<CommentDTO>> GetCommentsForPostAsync(Guid postId);
         Task<IEnumerable<CommentDTO>> GetCommentsForPostPaginatedAsync(int pageNumber, int pageSize);
         Task<CommentDTO> GetCommentByIdAsync(Guid commentId);
-        Task AddCommentToPostAsync(Comment comment);
+        Task AddCommentToPostAsync(CreateCommentDTO comment);
         Task DeleteCommentAsync(Guid commentId);
     }
 }

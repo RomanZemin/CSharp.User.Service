@@ -36,9 +36,10 @@ namespace UserManagement.Application.Services
             return _mapper.Map<CommentDTO>(comment);
         }
 
-        public async Task AddCommentToPostAsync(Comment comment)
+        public async Task AddCommentToPostAsync(CreateCommentDTO comment)
         {
-            await _commentRepository.AddCommentToPostAsync(comment);
+            var comment_mapped = _mapper.Map<Comment>(comment);
+            await _commentRepository.AddCommentToPostAsync(comment_mapped);
         }
 
         public async Task DeleteCommentAsync(Guid commentId)

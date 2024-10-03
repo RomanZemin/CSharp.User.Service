@@ -3,6 +3,8 @@
 using UserManagement.Domain.Entities;
 using UserManagement.Domain.Interfaces;
 using UserManagement.Persistence.Data;
+using UserManagement.Application.DTOs;
+using UserManagement.Application.DTOs.Posts;
 
 namespace UserManagement.Persistence.Repositories
 {

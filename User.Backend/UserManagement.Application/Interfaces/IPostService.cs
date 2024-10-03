@@ -8,7 +8,7 @@ namespace UserManagement.Application.Interfaces
         Task<IEnumerable<PostDTO>> GetAllPostsAsync();
         Task<PostDTO> GetPostByIdAsync(Guid postId);
         Task<IEnumerable<PostDTO>> GetAllPostsPaginatedAsync(int pageNumber, int pageSize);
-        Task CreateNewPostAsync(Post PostRequest);
+        Task CreateNewPostAsync(PostDTO PostRequest);
         Task ChangeContentPostAsync(Guid postId, string content);
         Task DeletePostAsync(Guid psotId);
     }

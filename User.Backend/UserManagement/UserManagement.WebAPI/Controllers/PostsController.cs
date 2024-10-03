@@ -24,7 +24,7 @@ namespace UserManagement.WebAPI.Controllers
         }
 
         #region PostAPI
-        [HttpGet]
+        [HttpGet("posts")]
         public async Task<IActionResult> GetAllPosts()
         {
             var posts = await _postService.GetAllPostsAsync();
@@ -32,7 +32,7 @@ namespace UserManagement.WebAPI.Controllers
             return Ok(posts);
         }
 
-        [HttpGet("{postId}")]
+        [HttpGet("posts/{postId}")]
         public async Task<IActionResult> GetPostById(Guid postId)
         {
             var post = await _postService.GetPostByIdAsync(postId);
@@ -40,7 +40,7 @@ namespace UserManagement.WebAPI.Controllers
             return Ok(post);
         }
 
-        [HttpGet]
+        [HttpGet("posts/paginated")]
         public async Task<IActionResult> GetAllPostsPaginated([FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 10)
         {
             var posts = await _postService.GetAllPostsPaginatedAsync(pageNumber, pageSize);
@@ -48,8 +48,8 @@ namespace UserManagement.WebAPI.Controllers
             return Ok(posts);
         }
 
-        [HttpPost]
-        public async Task<IActionResult> CreateNewPost(Post post)
+        [HttpPost("posts")]
+        public async Task<IActionResult> CreateNewPost(PostDTO post)
         {
             try
             {
@@ -62,7 +62,7 @@ namespace UserManagement.WebAPI.Controllers
             }
         }
 
-        [HttpPatch("{postId}")]
+        [HttpPatch("posts/{postId}")]
         public async Task<IActionResult> ChangeContentPost(Guid postId, string content)
         {
             try
@@ -80,7 +80,7 @@ namespace UserManagement.WebAPI.Controllers
             }
         }
         
-        [HttpDelete("{postId}")]
+        [HttpDelete("posts/{postId}")]
         public async Task<IActionResult> DeletePost(Guid postId)
         {
             try
@@ -100,7 +100,7 @@ namespace UserManagement.WebAPI.Controllers
         #endregion
 
         #region CommentAPI
-        [HttpGet("{postId}/comments")]
+        [HttpGet("posts/{postId}/comments")]
         public async Task<IActionResult> GetCommentsForPost(Guid postId)
         {
             var comments = await _commentService.GetCommentsForPostAsync(postId);
@@ -109,7 +109,7 @@ namespace UserManagement.WebAPI.Controllers
         }
 
 
-        [HttpGet("{commentId}")]
+        [HttpGet("comments/{commentId}")]
         public async Task<IActionResult> GetCommentById(Guid commentId)
         {
             var comment = await _commentService.GetCommentByIdAsync(commentId);
@@ -117,7 +117,7 @@ namespace UserManagement.WebAPI.Controllers
             return Ok(comment);
         }
 
-        [HttpGet]
+        [HttpGet("comments/paginated")]
         public async Task<IActionResult> GetCommentsForPostPaginated([FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 10)
         {
             var comments = await _commentService.GetCommentsForPostPaginatedAsync(pageNumber, pageSize);
@@ -125,8 +125,8 @@ namespace UserManagement.WebAPI.Controllers
             return Ok(comments);
         }
 
-        [HttpPost]
-        public async Task<IActionResult> AddCommentToPost(Comment comment)
+        [HttpPost("comments")]
+        public async Task<IActionResult> AddCommentToPost(CreateCommentDTO comment)
         {
             try
             {
@@ -139,7 +139,7 @@ namespace UserManagement.WebAPI.Controllers
             }
         }
 
-        [HttpDelete("{commentId}")]
+        [HttpDelete("comments/{commentId}")]
         public async Task<IActionResult> DeleteComment(Guid commentId)
         {
             try
@@ -159,7 +159,7 @@ namespace UserManagement.WebAPI.Controllers
         #endregion
 
         #region LikeAPI
-        [HttpPost("{postId}/like")]
+        [HttpPost("posts/{postId}/like")]
         public async Task<IActionResult> LikePost(LikeDTO likecontent)
         {
             try
@@ -173,7 +173,7 @@ namespace UserManagement.WebAPI.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPost("posts/{postId}/unlike")]
         public async Task<IActionResult> UnlikePost(LikeDTO likecontent)
         {
             try

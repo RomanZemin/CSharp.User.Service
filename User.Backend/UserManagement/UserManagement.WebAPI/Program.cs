@@ -24,8 +24,9 @@ namespace UserManagement.WebAPI
             builder.Services.AddInfrastructureIdentityServices(builder.Configuration);
 
             builder.Services.AddScoped<IUserDbService, UserDbService>();
-            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            
             builder.Services.AddCoreApplicationServices();
+            builder.Services.AddInfrastructureRepositoriesServices();
 
             builder.Services.AddCors(options =>
             {

@@ -1,32 +1,46 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+
+using UserManagement.Domain.Interfaces;
 using UserManagement.Persistence.Data;
+using UserManagement.Persistence.Repositories;
 
 namespace UserManagement.Persistence.Extensions
 {
     public static class ServiceCollectionExtension
     {
-        // Метод для добавления DbContext
         public static void AddAppDbContext(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<UserDbContext>(options =>
+               options.UseNpgsql(
+                   configuration.GetConnectionString("DefaultConnection"),
+                   b => b.MigrationsAssembly(typeof(UserDbContext).Assembly.FullName)));
+
+            // Регистрация контекста для постов
+            services.AddDbContext<PostDbContext>(options =>
                 options.UseNpgsql(
                     configuration.GetConnectionString("DefaultConnection"),
-                    b => b.MigrationsAssembly(typeof(UserDbContext).Assembly.FullName)));
+                    b => b.MigrationsAssembly(typeof(PostDbContext).Assembly.FullName)));
+
+            // Регистрация контекста для комментариев
+            services.AddDbContext<CommentDbContext>(options =>
+                options.UseNpgsql(
+                    configuration.GetConnectionString("DefaultConnection"),
+                    b => b.MigrationsAssembly(typeof(CommentDbContext).Assembly.FullName)));
+
+            // Регистрация контекста для лайков
+            services.AddDbContext<LikeDbContext>(options =>
+                options.UseNpgsql(
+                    configuration.GetConnectionString("DefaultConnection"),
+                    b => b.MigrationsAssembly(typeof(LikeDbContext).Assembly.FullName)));
         }
-
-        // Метод для добавления других инфраструктурных сервисов
-        public static void AddInfrastructurePersistenceServices(this IServiceCollection services)
+        public static void AddInfrastructureRepositoriesServices(this IServiceCollection services)
         {
-            //// Интерсепторы для обработки действий перед сохранением в БД
-            //services.AddScoped<AuditableEntitySaveChangesInterceptor>();
-
-            //// Регистрация репозиториев
-            //services.AddScoped(typeof(IRepositoryBase<>), typeof(RepositoryBase<>));
-
-            //// Регистрация UnitOfWork
-            //services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IPostRepository, PostRepository>();
+            services.AddScoped<ICommentRepository, CommentRepository>();
+            services.AddScoped<ILikeRepository, LikeRepository>();
         }
     }
 }

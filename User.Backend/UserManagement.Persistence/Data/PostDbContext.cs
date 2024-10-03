@@ -29,8 +29,9 @@ namespace UserManagement.Persistence.Data
                     .HasMaxLength(1000);  // Ограничение на длину контента поста
 
                 entity.Property(p => p.CreatedAt)
-                    .IsRequired()
-                    .HasDefaultValueSql("CURRENT_TIMESTAMP");
+                    .HasConversion(
+                    v => v.ToUniversalTime(),
+                    v => DateTime.SpecifyKind(v, DateTimeKind.Utc));
 
                 entity.Property(p => p.UpdatedAt)
                     .IsRequired()
