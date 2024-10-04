@@ -7,13 +7,7 @@
       "RelativeMoniker": "D:0:0:{8310DCE5-D713-4F4C-B3D9-13F4A01A6A74}|UserManagement.WebAPI\\UserManagement.WebAPI.csproj|solutionrelative:usermanagement.webapi\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1B9DCF0-0343-4D9D-AE08-D03426BFF889}|..\\UserManagement.Domain\\UserManagement.Domain.csproj|c:\\users\\mvide\\source\\repos\\_grossmann\\csharp.user.service\\user.backend\\usermanagement.domain\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9527A2AA-897B-40B0-8F66-F2476E2BF851}|..\\UserManagement.Application\\UserManagement.Application.csproj|c:\\users\\mvide\\source\\repos\\_grossmann\\csharp.user.service\\user.backend\\usermanagement.application\\services\\posts\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9527A2AA-897B-40B0-8F66-F2476E2BF851}|..\\UserManagement.Application\\UserManagement.Application.csproj|c:\\users\\mvide\\source\\repos\\_grossmann\\csharp.user.service\\user.backend\\usermanagement.application\\interfaces\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9527A2AA-897B-40B0-8F66-F2476E2BF851}|..\\UserManagement.Application\\UserManagement.Application.csproj|c:\\users\\mvide\\source\\repos\\_grossmann\\csharp.user.service\\user.backend\\usermanagement.application\\services\\posts\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +16,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 256,
-          "SelectedChildIndex": 10,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,41 +49,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CommentService.cs",
-              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Services\\Posts\\CommentService.cs",
-              "RelativeDocumentMoniker": "..\\UserManagement.Application\\Services\\Posts\\CommentService.cs",
-              "ToolTip": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Services\\Posts\\CommentService.cs",
-              "RelativeToolTip": "..\\UserManagement.Application\\Services\\Posts\\CommentService.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAewCgAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T12:00:30.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ICommentService.cs",
-              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Interfaces\\ICommentService.cs",
-              "RelativeDocumentMoniker": "..\\UserManagement.Application\\Interfaces\\ICommentService.cs",
-              "ToolTip": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Interfaces\\ICommentService.cs",
-              "RelativeToolTip": "..\\UserManagement.Application\\Interfaces\\ICommentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T12:00:25.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Comment.cs",
-              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\Entities\\Comment.cs",
-              "RelativeDocumentMoniker": "..\\UserManagement.Domain\\Entities\\Comment.cs",
-              "ToolTip": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\Entities\\Comment.cs",
-              "RelativeToolTip": "..\\UserManagement.Domain\\Entities\\Comment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Title": "PostService.cs",
+              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Services\\Posts\\PostService.cs",
+              "RelativeDocumentMoniker": "..\\UserManagement.Application\\Services\\Posts\\PostService.cs",
+              "ToolTip": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Services\\Posts\\PostService.cs",
+              "RelativeToolTip": "..\\UserManagement.Application\\Services\\Posts\\PostService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAIA0wCkAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T12:00:11.508Z",
+              "WhenOpened": "2024-10-03T18:55:29.439Z",
               "EditorCaption": ""
             },
             {
@@ -100,9 +68,9 @@
               "RelativeDocumentMoniker": "UserManagement.WebAPI\\Controllers\\PostsController.cs",
               "ToolTip": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebAPI\\Controllers\\PostsController.cs",
               "RelativeToolTip": "UserManagement.WebAPI\\Controllers\\PostsController.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAAwIMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAA5wC8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T11:59:33.65Z",
+              "WhenOpened": "2024-10-03T18:47:35.537Z",
               "EditorCaption": ""
             }
           ]

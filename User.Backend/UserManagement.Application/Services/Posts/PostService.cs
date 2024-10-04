@@ -40,7 +40,6 @@ namespace UserManagement.Application.Services
         public async Task<IEnumerable<PostDTO>> GetAllPostsPaginatedAsync(int pageNumber, int pageSize)
         {
             var posts = await _postRepository.GetPaginatedAsync(pageNumber, pageSize);
-            if (posts == null || !posts.Any()) throw new PostNotFoundException("Посты не найдены");
             return _mapper.Map<IEnumerable<PostDTO>>(posts);
         }
 

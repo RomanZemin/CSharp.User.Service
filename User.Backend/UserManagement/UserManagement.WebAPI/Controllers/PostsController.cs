@@ -36,7 +36,7 @@ namespace UserManagement.WebAPI.Controllers
         public async Task<IActionResult> GetPostById(Guid postId)
         {
             var post = await _postService.GetPostByIdAsync(postId);
-            if (post == null) throw new PostNotFoundException("Посты не найден");
+            if (post == null) throw new PostNotFoundException("Пост не найден");
             return Ok(post);
         }
 
@@ -44,7 +44,7 @@ namespace UserManagement.WebAPI.Controllers
         public async Task<IActionResult> GetAllPostsPaginated([FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 10)
         {
             var posts = await _postService.GetAllPostsPaginatedAsync(pageNumber, pageSize);
-            if (posts == null || !posts.Any()) throw new PostNotFoundException("Посты не найдены");
+            if (posts == null || !posts.Any()) return Empty;
             return Ok(posts);
         }
 
