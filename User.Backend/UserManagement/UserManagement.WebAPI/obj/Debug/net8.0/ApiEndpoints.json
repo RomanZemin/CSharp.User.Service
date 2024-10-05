@@ -97,49 +97,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "PostId",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "UserId",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "UserName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Content",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "CreatedAt",
-        "Type": "System.DateTime",
-        "IsRequired": false
-      },
-      {
-        "Name": "UpdatedAt",
-        "Type": "System.DateTime",
-        "IsRequired": false
-      },
-      {
-        "Name": "LikesCount",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "CommentsCount",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "Comments",
-        "Type": "System.Collections.Generic.List\u00601[[UserManagement.Application.DTOs.Posts.CommentDTO, UserManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "IsRequired": false
+        "Name": "post",
+        "Type": "UserManagement.Application.DTOs.Posts.PostDTO",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

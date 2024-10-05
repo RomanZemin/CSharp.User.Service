@@ -21,7 +21,7 @@ namespace UserManagement.Identity.Extensions
                 {
                     ValidateIssuer = true,
                     ValidateAudience = false, //тут пизда какая-то надо фиксить с true токен не валиден
-                    ValidateLifetime = true,
+                    ValidateLifetime = false, //покак false, потом поправим
                     ValidateIssuerSigningKey = true,
                     ValidAudience = configuration["Jwt:Audience"],
                     ValidIssuer = configuration["Jwt:Issuer"],

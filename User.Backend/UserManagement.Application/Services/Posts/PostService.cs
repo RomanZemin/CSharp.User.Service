@@ -43,12 +43,16 @@ namespace UserManagement.Application.Services
             return _mapper.Map<IEnumerable<PostDTO>>(posts);
         }
 
-        public async Task CreateNewPostAsync(PostDTO PostRequest)
+        public async Task CreateNewPostAsync(PostDTO PostRequest, Guid userId)
         {
-            var user = await _userRepository.GetUserByIdAsync(PostRequest.UserId);
-            if (user == null) throw new InvalidOperationException("Пользователь не найден");
-
+            var user = await _userRepository.GetUserByIdAsync(userId);
+            if (user == null)
+            {
+                throw new InvalidOperationException("Пользователь с данным userId не найден.");
+            }
             var post = _mapper.Map<Post>(PostRequest);
+            post.UserId = userId;
+
             await _postRepository.CreateAsync(post);
         }
 

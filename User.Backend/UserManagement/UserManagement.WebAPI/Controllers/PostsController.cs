@@ -1,12 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 using UserManagement.Application.DTOs.Posts;
 using UserManagement.Application.Interfaces;
-using UserManagement.Domain.Entities;
 using UserManagement.Application.Exceptions;
 
 namespace UserManagement.WebAPI.Controllers
 {
+    [Authorize]
     public class PostsController : ControllerBase
     {
         private readonly IPostService _postService;
@@ -49,16 +51,33 @@ namespace UserManagement.WebAPI.Controllers
         }
 
         [HttpPost("posts")]
-        public async Task<IActionResult> CreateNewPost(PostDTO post)
+        public async Task<IActionResult> CreateNewPost([FromBody] PostDTO post)
         {
+            if (string.IsNullOrWhiteSpace(post.Content))
+            {
+                return BadRequest("Content cannot be empty.");
+            }
+
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
             try
             {
-                await _postService.CreateNewPostAsync(post);
-                return CreatedAtAction(nameof(GetPostById), new { id = post.PostId }, post);
+                if (Guid.TryParse(userIdClaim, out Guid userId))
+                {
+                    post.PostId = Guid.NewGuid();
+                    await _postService.CreateNewPostAsync(post, userId);
+                    return CreatedAtAction(nameof(GetPostById), new { postId = post.PostId }, post);
+                }
+                else
+                {
+                    return Unauthorized("Invalid UserId");
+                }
+
             }
             catch (Exception ex)
             {
-                throw new InvalidOperationException("Ошибка при создании поста" + ex.Message);
+                var innerException = ex.InnerException?.Message ?? "No inner exception";
+                throw new InvalidOperationException($"Ошибка при создании поста: {ex.Message} Внутренняя ошибка: {innerException}");
             }
         }
 

@@ -1,9 +1,12 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace UserManagement.Domain.Entities
 {
     public class Post
     {
         public Guid PostId { get; set; } = Guid.NewGuid();
         public Guid UserId { get; set; }
+        [Required]
         public string Content { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;

@@ -7,7 +7,33 @@
       "RelativeMoniker": "D:0:0:{8310DCE5-D713-4F4C-B3D9-13F4A01A6A74}|UserManagement.WebAPI\\UserManagement.WebAPI.csproj|solutionrelative:usermanagement.webapi\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C1B9DCF0-0343-4D9D-AE08-D03426BFF889}|..\\UserManagement.Domain\\UserManagement.Domain.csproj|c:\\users\\mvide\\source\\repos\\_grossmann\\csharp.user.service\\user.backend\\usermanagement.domain\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8310DCE5-D713-4F4C-B3D9-13F4A01A6A74}|UserManagement.WebAPI\\UserManagement.WebAPI.csproj|c:\\users\\mvide\\source\\repos\\_grossmann\\csharp.user.service\\user.backend\\usermanagement\\usermanagement.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8310DCE5-D713-4F4C-B3D9-13F4A01A6A74}|UserManagement.WebAPI\\UserManagement.WebAPI.csproj|solutionrelative:usermanagement.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9527A2AA-897B-40B0-8F66-F2476E2BF851}|..\\UserManagement.Application\\UserManagement.Application.csproj|c:\\users\\mvide\\source\\repos\\_grossmann\\csharp.user.service\\user.backend\\usermanagement.application\\dtos\\posts\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9527A2AA-897B-40B0-8F66-F2476E2BF851}|..\\UserManagement.Application\\UserManagement.Application.csproj|c:\\users\\mvide\\source\\repos\\_grossmann\\csharp.user.service\\user.backend\\usermanagement.application\\services\\posts\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9527A2AA-897B-40B0-8F66-F2476E2BF851}|..\\UserManagement.Application\\UserManagement.Application.csproj|c:\\users\\mvide\\source\\repos\\_grossmann\\csharp.user.service\\user.backend\\usermanagement.application\\interfaces\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9527A2AA-897B-40B0-8F66-F2476E2BF851}|..\\UserManagement.Application\\UserManagement.Application.csproj|c:\\users\\mvide\\source\\repos\\_grossmann\\csharp.user.service\\user.backend\\usermanagement.application\\mappings\\posts\\postmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9527A2AA-897B-40B0-8F66-F2476E2BF851}|..\\UserManagement.Application\\UserManagement.Application.csproj|c:\\users\\mvide\\source\\repos\\_grossmann\\csharp.user.service\\user.backend\\usermanagement.application\\dtos\\posts\\createpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E15C52F3-1D87-4F09-AC73-60C975DBE33B}|..\\UserManagement.Identity\\UserManagement.Identity.csproj|c:\\users\\mvide\\source\\repos\\_grossmann\\csharp.user.service\\user.backend\\usermanagement.identity\\extensions\\addauthentificationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8310DCE5-D713-4F4C-B3D9-13F4A01A6A74}|UserManagement.WebAPI\\UserManagement.WebAPI.csproj|c:\\users\\mvide\\source\\repos\\_grossmann\\csharp.user.service\\user.backend\\usermanagement\\usermanagement.webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8310DCE5-D713-4F4C-B3D9-13F4A01A6A74}|UserManagement.WebAPI\\UserManagement.WebAPI.csproj|solutionrelative:usermanagement.webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,7 +43,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,15 +75,80 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "UserManagement.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebAPI\\Program.cs",
+              "RelativeToolTip": "UserManagement.WebAPI\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T09:01:48.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PostDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\DTOs\\Posts\\PostDTO.cs",
+              "RelativeDocumentMoniker": "..\\UserManagement.Application\\DTOs\\Posts\\PostDTO.cs",
+              "ToolTip": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\DTOs\\Posts\\PostDTO.cs",
+              "RelativeToolTip": "..\\UserManagement.Application\\DTOs\\Posts\\PostDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T08:59:03.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\Entities\\Post.cs",
+              "RelativeDocumentMoniker": "..\\UserManagement.Domain\\Entities\\Post.cs",
+              "ToolTip": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Domain\\Entities\\Post.cs",
+              "RelativeToolTip": "..\\UserManagement.Domain\\Entities\\Post.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T08:48:11.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "PostService.cs",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Services\\Posts\\PostService.cs",
               "RelativeDocumentMoniker": "..\\UserManagement.Application\\Services\\Posts\\PostService.cs",
               "ToolTip": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Services\\Posts\\PostService.cs",
               "RelativeToolTip": "..\\UserManagement.Application\\Services\\Posts\\PostService.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAIA0wCkAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAIA2wC0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T18:55:29.439Z",
+              "WhenOpened": "2024-10-05T07:55:54.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddAuthentificationExtension.cs",
+              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\Extensions\\AddAuthentificationExtension.cs",
+              "RelativeDocumentMoniker": "..\\UserManagement.Identity\\Extensions\\AddAuthentificationExtension.cs",
+              "ToolTip": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Identity\\Extensions\\AddAuthentificationExtension.cs",
+              "RelativeToolTip": "..\\UserManagement.Identity\\Extensions\\AddAuthentificationExtension.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T07:41:00.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IPostService.cs",
+              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Interfaces\\IPostService.cs",
+              "RelativeDocumentMoniker": "..\\UserManagement.Application\\Interfaces\\IPostService.cs",
+              "ToolTip": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Interfaces\\IPostService.cs",
+              "RelativeToolTip": "..\\UserManagement.Application\\Interfaces\\IPostService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T07:21:09.869Z",
               "EditorCaption": ""
             },
             {
@@ -68,9 +159,48 @@
               "RelativeDocumentMoniker": "UserManagement.WebAPI\\Controllers\\PostsController.cs",
               "ToolTip": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebAPI\\Controllers\\PostsController.cs",
               "RelativeToolTip": "UserManagement.WebAPI\\Controllers\\PostsController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAA5wC8AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAjwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T18:47:35.537Z",
+              "WhenOpened": "2024-10-05T07:18:02.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PostMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Mappings\\Posts\\PostMappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\UserManagement.Application\\Mappings\\Posts\\PostMappingProfile.cs",
+              "ToolTip": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\Mappings\\Posts\\PostMappingProfile.cs",
+              "RelativeToolTip": "..\\UserManagement.Application\\Mappings\\Posts\\PostMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T08:51:04.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreatePostDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\DTOs\\Posts\\CreatePostDTO.cs",
+              "RelativeDocumentMoniker": "..\\UserManagement.Application\\DTOs\\Posts\\CreatePostDTO.cs",
+              "ToolTip": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Application\\DTOs\\Posts\\CreatePostDTO.cs",
+              "RelativeToolTip": "..\\UserManagement.Application\\DTOs\\Posts\\CreatePostDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T07:59:44.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebAPI\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "UserManagement.WebAPI\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebAPI\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "UserManagement.WebAPI\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T07:17:56.46Z",
               "EditorCaption": ""
             }
           ]
