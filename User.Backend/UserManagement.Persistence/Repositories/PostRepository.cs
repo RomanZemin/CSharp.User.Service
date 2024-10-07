@@ -40,7 +40,7 @@ namespace UserManagement.Persistence.Repositories
                 .Include(p => p.User)
                 .Include(p => p.Comments)
                 .Include(p => p.Likes)
-                .OrderBy(c => c.CreatedAt)
+                .OrderByDescending(c => c.CreatedAt)
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)
                 .ToListAsync();
