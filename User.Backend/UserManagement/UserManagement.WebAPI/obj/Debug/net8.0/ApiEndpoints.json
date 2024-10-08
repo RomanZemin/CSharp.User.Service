@@ -238,8 +238,18 @@
   },
   {
     "ContainingType": "UserManagement.WebAPI.Controllers.UsersController",
+    "Method": "GetCurrentUser",
+    "RelativePath": "Users/CurrentUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserManagement.WebAPI.Controllers.UsersController",
     "Method": "GetAllUsersExcept",
-    "RelativePath": "Users",
+    "RelativePath": "Users/users",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

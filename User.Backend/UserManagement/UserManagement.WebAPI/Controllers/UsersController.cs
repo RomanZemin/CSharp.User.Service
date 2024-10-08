@@ -17,7 +17,23 @@ namespace UserManagement.WebAPI.Controllers
             _userService = userService;
         }
 
-        [HttpGet]
+        [HttpGet("CurrentUser")]
+        public async Task<IActionResult> GetCurrentUser()
+        {
+            // Получаем UserId из токена
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (Guid.TryParse(userIdClaim, out Guid userId))
+            {
+                var user = await _userService.GetCurrentUserAsync(userId);
+                return Ok(user);
+            }
+            else
+            {
+                return Unauthorized("Invalid UserId");
+            }
+        }
+
+        [HttpGet("users")]
         public async Task<IActionResult> GetAllUsersExcept()
         {
             // Получаем UserId из токена
@@ -33,5 +49,7 @@ namespace UserManagement.WebAPI.Controllers
                 return Unauthorized("Invalid UserId");
             }
         }
+
+
     }
 }

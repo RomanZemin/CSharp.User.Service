@@ -29,5 +29,10 @@ namespace UserManagement.Application.Services
             var filteredUsers = users.Where(u => u.UserId != userId);
             return _mapper.Map<IEnumerable<UserDto>>(filteredUsers);
         }
+        public async Task<UserDto> GetCurrentUserAsync(Guid userId)
+        {
+            var user = await _userRepository.GetUserByIdAsync(userId);
+            return _mapper.Map<UserDto>(user);
+        }
     }
 }

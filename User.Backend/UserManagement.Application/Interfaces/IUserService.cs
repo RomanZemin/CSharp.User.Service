@@ -6,5 +6,6 @@ namespace UserManagement.Application.Interfaces
     {
         Task<IEnumerable<UserDto>> GetAllUsersAsync();
         Task<IEnumerable<UserDto>> GetAllUsersExceptAsync(Guid userId);
+        Task<UserDto> GetCurrentUserAsync(Guid userId);
     }
 }

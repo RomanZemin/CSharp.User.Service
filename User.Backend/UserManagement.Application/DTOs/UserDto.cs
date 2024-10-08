@@ -11,6 +11,8 @@ namespace UserManagement.Application.DTOs
     {
         public string UserId { get; set; }
         public string UserName { get; set; }
+        public string FirstName { get; set; }
+        public string SurName { get; set; }
         public string Description { get; set; }
         public DateTime? Birthday { get; set; }
         //public string PublicName { get; set; }
