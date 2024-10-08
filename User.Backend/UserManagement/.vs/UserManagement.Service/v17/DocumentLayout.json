@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{66467063-95AB-44B1-B5F6-0E80229B2AC8}|..\\UserManagement.Persistence\\UserManagement.Persistence.csproj|c:\\users\\mvide\\source\\repos\\_grossmann\\csharp.user.service\\user.backend\\usermanagement.persistence\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8310DCE5-D713-4F4C-B3D9-13F4A01A6A74}|UserManagement.WebAPI\\UserManagement.WebAPI.csproj|c:\\users\\mvide\\source\\repos\\_grossmann\\csharp.user.service\\user.backend\\usermanagement\\usermanagement.webapi\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8310DCE5-D713-4F4C-B3D9-13F4A01A6A74}|UserManagement.WebAPI\\UserManagement.WebAPI.csproj|solutionrelative:usermanagement.webapi\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66467063-95AB-44B1-B5F6-0E80229B2AC8}|..\\UserManagement.Persistence\\UserManagement.Persistence.csproj|c:\\users\\mvide\\source\\repos\\_grossmann\\csharp.user.service\\user.backend\\usermanagement.persistence\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,7 +17,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,7 +49,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PostRepository.cs",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement.Persistence\\Repositories\\PostRepository.cs",
               "RelativeDocumentMoniker": "..\\UserManagement.Persistence\\Repositories\\PostRepository.cs",
@@ -62,13 +62,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PostsController.cs",
               "DocumentMoniker": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebAPI\\Controllers\\PostsController.cs",
               "RelativeDocumentMoniker": "UserManagement.WebAPI\\Controllers\\PostsController.cs",
-              "ToolTip": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebAPI\\Controllers\\PostsController.cs*",
-              "RelativeToolTip": "UserManagement.WebAPI\\Controllers\\PostsController.cs*",
-              "ViewState": "AgIAACAAAAAAAAAAAIAwwC8AAAAwAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\mvide\\source\\repos\\_GROSSMANN\\CSharp.User.Service\\User.Backend\\UserManagement\\UserManagement.WebAPI\\Controllers\\PostsController.cs",
+              "RelativeToolTip": "UserManagement.WebAPI\\Controllers\\PostsController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAewEMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T10:41:53.719Z",
               "EditorCaption": ""
