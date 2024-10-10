@@ -5,6 +5,6 @@ namespace UserManagement.Domain.Interfaces
     public interface ILikeRepository
     {
         Task AddLikeAsync(Like like);
-        Task RemoveLikeAsync(Guid postId, Guid userId);
+        Task RemoveLikeAsync(Guid postId, string UserName);
     }
 }

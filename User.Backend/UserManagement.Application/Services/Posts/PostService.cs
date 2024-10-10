@@ -51,7 +51,8 @@ namespace UserManagement.Application.Services
                 throw new InvalidOperationException("Пользователь с данным userId не найден.");
             }
             var post = _mapper.Map<Post>(PostRequest);
-            post.UserId = userId;
+
+            post.UserName = user.UserName;
 
             await _postRepository.CreateAsync(post);
         }

@@ -40,7 +40,8 @@ namespace UserManagement.Persistence.Data
                 // Связь "многие к одному" с пользователем (автор поста)
                 entity.HasOne(p => p.User)
                     .WithMany(u => u.Posts)
-                    .HasForeignKey(p => p.UserId)
+                    .HasForeignKey(p => p.UserName)
+                    .HasPrincipalKey(u => u.UserName)  // Указание поля связи
                     .OnDelete(DeleteBehavior.Cascade);
 
                 // Связь "один ко многим" с комментариями
@@ -59,7 +60,7 @@ namespace UserManagement.Persistence.Data
             // Пример настройки других сущностей (Users, Comments, Likes)
             modelBuilder.Entity<User>(entity =>
             {
-                entity.HasKey(u => u.UserId);
+                entity.HasKey(u => u.UserName);
                 entity.Property(u => u.UserName).IsRequired().HasMaxLength(100);
             });
 
@@ -67,11 +68,22 @@ namespace UserManagement.Persistence.Data
             {
                 entity.HasKey(c => c.CommentId);
                 entity.Property(c => c.Content).IsRequired().HasMaxLength(250);
+
+                // Связь с пользователем
+                entity.HasOne(c => c.User)
+                    .WithMany(u => u.Comments)
+                    .HasForeignKey(c => c.UserName)  // Указание внешнего ключа
+                    .OnDelete(DeleteBehavior.Cascade);
             });
 
             modelBuilder.Entity<Like>(entity =>
             {
                 entity.HasKey(l => l.LikeId);
+
+                entity.HasOne(l => l.User)
+                    .WithMany(u => u.Likes)
+                    .HasForeignKey(l => l.UserName) // Здесь используем UserName
+                    .OnDelete(DeleteBehavior.Cascade);
             });
         }
     }

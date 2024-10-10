@@ -4,7 +4,7 @@
     {
         public Guid LikeId { get; set; } = Guid.NewGuid();
         public Guid PostId { get; set; }
-        public Guid UserId { get; set; }
+        public string UserName { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
         // Навигационные свойства

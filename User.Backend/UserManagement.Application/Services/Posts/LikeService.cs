@@ -19,7 +19,7 @@ namespace UserManagement.Application.Services
             var like = new Like
             {
                 PostId = likecontent.PostId,
-                UserId = likecontent.UserId
+                UserName = likecontent.UserName
             };
 
             await _likeRepository.AddLikeAsync(like);
@@ -27,7 +27,7 @@ namespace UserManagement.Application.Services
 
         public async Task UnLikePostAsync(LikeDTO likecontent)
         {
-            await _likeRepository.RemoveLikeAsync(likecontent.PostId, likecontent.UserId);
+            await _likeRepository.RemoveLikeAsync(likecontent.PostId, likecontent.UserName);
         }
     }
 }

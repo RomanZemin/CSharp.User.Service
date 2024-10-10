@@ -13,8 +13,8 @@
         "IsRequired": false
       },
       {
-        "Name": "UserId",
-        "Type": "System.Guid",
+        "Name": "UserName",
+        "Type": "System.String",
         "IsRequired": false
       },
       {
@@ -187,8 +187,8 @@
         "IsRequired": true
       },
       {
-        "Name": "UserId",
-        "Type": "System.Guid",
+        "Name": "UserName",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],
@@ -208,8 +208,8 @@
         "IsRequired": true
       },
       {
-        "Name": "UserId",
-        "Type": "System.Guid",
+        "Name": "UserName",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],

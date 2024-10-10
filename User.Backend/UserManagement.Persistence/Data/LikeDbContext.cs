@@ -36,7 +36,7 @@ namespace UserManagement.Persistence.Data
                 // Связь "многие к одному" с пользователем
                 entity.HasOne(l => l.User)
                     .WithMany(u => u.Likes)
-                    .HasForeignKey(l => l.UserId)
+                    .HasForeignKey(l => l.UserName)
                     .OnDelete(DeleteBehavior.Cascade);
             });
         }

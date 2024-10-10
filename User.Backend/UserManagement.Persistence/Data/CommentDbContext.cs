@@ -40,7 +40,7 @@ namespace UserManagement.Persistence.Data
                 // Связь "многие к одному" с пользователем
                 entity.HasOne(c => c.User)
                     .WithMany(u => u.Comments)
-                    .HasForeignKey(c => c.UserId)
+                    .HasForeignKey(c => c.UserName)
                     .OnDelete(DeleteBehavior.Cascade);
             });
         }

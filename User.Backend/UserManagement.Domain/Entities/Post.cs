@@ -5,7 +5,7 @@ namespace UserManagement.Domain.Entities
     public class Post
     {
         public Guid PostId { get; set; } = Guid.NewGuid();
-        public Guid UserId { get; set; }
+        public string UserName { get; set; }
         [Required]
         public string Content { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;

@@ -18,7 +18,7 @@ namespace UserManagement.Persistence.Repositories
         public async Task AddLikeAsync(Like like)
         {
             var existingLike = await _context.Likes
-                .FirstOrDefaultAsync(l => l.PostId == like.PostId && l.UserId == like.UserId);
+                .FirstOrDefaultAsync(l => l.PostId == like.PostId && l.UserName == like.UserName);
 
             if (existingLike == null)
             {
@@ -27,10 +27,10 @@ namespace UserManagement.Persistence.Repositories
             }
         }
 
-        public async Task RemoveLikeAsync(Guid postId, Guid userId)
+        public async Task RemoveLikeAsync(Guid postId, string UserName)
         {
             var like = await _context.Likes
-                .FirstOrDefaultAsync(l => l.PostId == postId && l.UserId == userId);
+                .FirstOrDefaultAsync(l => l.PostId == postId && l.UserName == UserName);
 
             if (like != null)
             {
